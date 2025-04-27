@@ -74,3 +74,52 @@
   border: none;
   cursor: pointer;
 }
+
+@media screen and (max-width: 480px){
+  .timeWrapper {
+    width: 80%;
+    height: 120px;
+  }
+
+  .timeWrapper h1 {
+    position: relative;
+    bottom: 5px;
+    font-size: 40px;
+  }
+
+  .timeWrapper .time {
+    width: 25%;
+    height: 100px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  }
+}
+@media screen and (min-width: 481px)and (max-width: 769px){
+  .timeWrapper {
+    width: 80%;
+    height: 120px;
+  }
+
+  .timeWrapper h1 {
+    position: relative;
+    bottom: 5px;
+    font-size: 40px;
+  }
+
+  .timeWrapper .time {
+    width: 25%;
+    height: 100px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  }
+}
