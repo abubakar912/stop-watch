@@ -11,7 +11,7 @@ let timeStart = null;
 
 function timerStart(){
     if(timeStart !== null) return
-    timeStart = setInterval(updateTime, 0.2)
+    timeStart = setInterval(updateTime, 10)
 }
 
 function updateTime(){
